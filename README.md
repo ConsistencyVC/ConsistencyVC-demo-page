@@ -1,3 +1,3 @@
 # ConsistencyVC-demo-page
 
-Demo page: https://consistencyvc.github.io/consistencyvc-demo-page
+Demo page: https://consistencyvc.github.io/ConsistencyVC-demo-page
