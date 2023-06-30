@@ -27,50 +27,37 @@ audio {
 
 
 
-    <h3>Target reference utterance-<audio controls>
-       <source src="./target/p226_006.wav" type="audio/wav">
-       </audio> p226_006 </h3>
+    <h3>Target English reference utterance-<audio controls>
+       <source src="./60_exp_crosslingual_consistencyvc-whispers-three-emo-loss/_87_121553_000254_0000006.wav" type="audio/wav">
+       </audio> 87_121553_000254_000000 in LibriTTS-100 </h3>
     <table border="1">
     <tr>
       <th>No.</th>
       <th>Source</th>
-      <th>QuickVC-nosr (proposed)</th>
-      <th>QuickVC-sr (proposed)</th>
-      <th>Diff-VCTK</th>
+      <th>ConsistencyVC (proposed)</th>
+      <th>ConsistencyVC-w/o loss (proposed)</th>
       <th>BNE-PPG-VC</th>
-      <th>VQMIVC</th>
     </tr>
 
     <tr>
        <td>1</td>
        <td>
        <audio controls>
-       <source src="./sourcewav/7433-89646-0027.wav" type="audio/wav">
-       </audio> 7433-89646-0027
+       <source src="./60_exp_crosslingual_consistencyvc-whispers-three-emo-loss/911_128684_000004_000001_.wav" type="audio/wav">
+       </audio> English 911_128684_000004_000001 in LibriTTS-100
        </td>
        <td>
        <audio controls>
-       <source src="./quickvc-nosr/p226_006from7433-89646-0027.wav.wav" type="audio/wav">
+       <source src="./60_exp_crosslingual_consistencyvc-whispers-three-emo-loss/911_128684_000004_000001_to_87_121553_000254_000000.wav" type="audio/wav">
        </audio>
        </td>
        <td>
        <audio controls>
-       <source src="./quickvc-sr/p226_006from7433-89646-0027.wav.wav" type="audio/wav">
+       <source src="./60_exp_crosslingual_consistencyvc-whispers-three-emo-noloss/911_128684_000004_000001_to_87_121553_000254_000000.wav" type="audio/wav">
        </audio>
-       </td>
        <td>
        <audio controls>
-       <source src="./diffvc/p226_006from7433-89646-0027.wav.wav" type="audio/wav">
-       </audio>
-       </td>
-       <td>
-       <audio controls>
-       <source src="./ppgvc/p226_006from7433-89646-0027.wav.wav" type="audio/wav">
-       </audio>
-       </td>
-       <td>
-       <audio controls>
-       <source src="./vqmivc/p226_006from7433-89646-0027.wav_gen.wav" type="audio/wav">
+       <source src="./ppg-vc/vc_911_128684_000004_000001__ref__87_121553_000254_000000_step34000.wav" type="audio/wav">
        </audio>
        </td>
     </tr>
@@ -79,32 +66,21 @@ audio {
        <td>2</td>
        <td>
        <audio controls>
-       <source src="./sourcewav/7607-89899-0000.wav" type="audio/wav">
-       </audio> 7607-89899-0000
+       <source src="./60_exp_crosslingual_consistencyvc-whispers-three-emo-loss/SSB18630001_.wav" type="audio/wav">
+       </audio> Chinese SSB18630001 in Aishell3
        </td>
        <td>
        <audio controls>
-       <source src="./quickvc-nosr/p226_006from7607-89899-0000.wav.wav" type="audio/wav">
+       <source src="./60_exp_crosslingual_consistencyvc-whispers-three-emo-loss/SSB18630001_to_87_121553_000254_000000.wav" type="audio/wav">
        </audio>
        </td>
        <td>
        <audio controls>
-       <source src="./quickvc-sr/p226_006from7607-89899-0000.wav.wav" type="audio/wav">
+       <source src="./60_exp_crosslingual_consistencyvc-whispers-three-emo-noloss/SSB18630001_to_87_121553_000254_000000.wav" type="audio/wav">
        </audio>
-       </td>
        <td>
        <audio controls>
-       <source src="./diffvc/p226_006from7607-89899-0000.wav.wav" type="audio/wav">
-       </audio>
-       </td>
-       <td>
-       <audio controls>
-       <source src="./ppgvc/p226_006from7607-89899-0000.wav.wav" type="audio/wav">
-       </audio>
-       </td>
-       <td>
-       <audio controls>
-       <source src="./vqmivc/p226_006from7607-89899-0000.wav_gen.wav" type="audio/wav">
+       <source src="./ppg-vc/vc_SSB18630001__ref__87_121553_000254_000000_step34000.wav" type="audio/wav">
        </audio>
        </td>
     </tr>
@@ -113,116 +89,58 @@ audio {
        <td>3</td>
        <td>
        <audio controls>
-       <source src="./sourcewav/7769-99397-0053.wav" type="audio/wav">
-       </audio> 7769-99397-0053
+       <source src="./60_exp_crosslingual_consistencyvc-whispers-three-emo-loss/BASIC5000_0440_.wav" type="audio/wav">
+       </audio> Japanese jvs003\nonpara30\wav24kHz16bit\BASIC5000_0440 in JVS
        </td>
        <td>
        <audio controls>
-       <source src="./quickvc-nosr/p226_006from7769-99397-0053.wav.wav" type="audio/wav">
+       <source src="./60_exp_crosslingual_consistencyvc-whispers-three-emo-loss/BASIC5000_0440_to_87_121553_000254_000000.wav" type="audio/wav">
        </audio>
        </td>
        <td>
        <audio controls>
-       <source src="./quickvc-sr/p226_006from7769-99397-0053.wav.wav" type="audio/wav">
+       <source src="./60_exp_crosslingual_consistencyvc-whispers-three-emo-noloss/BASIC5000_0440_to_87_121553_000254_000000.wav" type="audio/wav">
        </audio>
-       </td>
        <td>
        <audio controls>
-       <source src="./diffvc/p226_006from7769-99397-0053.wav.wav" type="audio/wav">
-       </audio>
-       </td>
-       <td>
-       <audio controls>
-       <source src="./ppgvc/p226_006from7769-99397-0053.wav.wav" type="audio/wav">
-       </audio>
-       </td>
-       <td>
-       <audio controls>
-       <source src="./vqmivc/p226_006from7769-99397-0053.wav_gen.wav" type="audio/wav">
+       <source src="./ppg-vc/vc_BASIC5000_0440__ref__87_121553_000254_000000_step34000.wav" type="audio/wav">
        </audio>
        </td>
     </tr>
       
-    <tr>
-       <td>4</td>
-       <td>
-       <audio controls>
-       <source src="./sourcewav/8200-278197-0010.wav" type="audio/wav">
-       </audio> 8200-278197-0010
-       </td>
-       <td>
-       <audio controls>
-       <source src="./quickvc-nosr/p226_006from8200-278197-0010.wav.wav" type="audio/wav">
-       </audio>
-       </td>
-       <td>
-       <audio controls>
-       <source src="./quickvc-sr/p226_006from8200-278197-0010.wav.wav" type="audio/wav">
-       </audio>
-       </td>
-       <td>
-       <audio controls>
-       <source src="./diffvc/p226_006from8200-278197-0010.wav.wav" type="audio/wav">
-       </audio>
-       </td>
-       <td>
-       <audio controls>
-       <source src="./ppgvc/p226_006from8200-278197-0010.wav.wav" type="audio/wav">
-       </audio>
-       </td>
-       <td>
-       <audio controls>
-       <source src="./vqmivc/p226_006from8200-278197-0010.wav_gen.wav" type="audio/wav">
-       </audio>
-       </td>
-    </tr>
-
     </table>
 
-  <h3>Target reference utterance-<audio controls>
-       <source src="./target/p229_006.wav" type="audio/wav">
-       </audio> p229_006 </h3>
+    <h3>Target Chinese reference utterance-<audio controls>
+       <source src="./60_exp_crosslingual_consistencyvc-whispers-three-emo-loss/_SSB19350001.wav" type="audio/wav">
+       </audio> SSB19350001 in Aishell3 </h3>
     <table border="1">
     <tr>
       <th>No.</th>
       <th>Source</th>
-      <th>QuickVC-nosr (proposed)</th>
-      <th>QuickVC-sr (proposed)</th>
-      <th>Diff-VCTK</th>
+      <th>ConsistencyVC (proposed)</th>
+      <th>ConsistencyVC-w/o loss (proposed)</th>
       <th>BNE-PPG-VC</th>
-      <th>VQMIVC</th>
     </tr>
 
     <tr>
        <td>1</td>
        <td>
        <audio controls>
-       <source src="./sourcewav/572-126495-0022.wav" type="audio/wav">
-       </audio> 572-126495-0022
+       <source src="./60_exp_crosslingual_consistencyvc-whispers-three-emo-loss/730_359_000004_000001_.wav" type="audio/wav">
+       </audio> English 730_359_000004_000001 in LibriTTS-100
        </td>
        <td>
        <audio controls>
-       <source src="./quickvc-nosr/p229_006from572-126495-0022.wav.wav" type="audio/wav">
+       <source src="./60_exp_crosslingual_consistencyvc-whispers-three-emo-loss/730_359_000004_000001_to_SSB19350001.wav" type="audio/wav">
        </audio>
        </td>
        <td>
        <audio controls>
-       <source src="./quickvc-sr/p229_006from572-126495-0022.wav.wav" type="audio/wav">
+       <source src="./60_exp_crosslingual_consistencyvc-whispers-three-emo-noloss/730_359_000004_000001_to_SSB19350001.wav" type="audio/wav">
        </audio>
-       </td>
        <td>
        <audio controls>
-       <source src="./diffvc/p229_006from572-126495-0022.wav.wav" type="audio/wav">
-       </audio>
-       </td>
-       <td>
-       <audio controls>
-       <source src="./ppgvc/p229_006from572-126495-0022.wav.wav" type="audio/wav">
-       </audio>
-       </td>
-       <td>
-       <audio controls>
-       <source src="./vqmivc/p229_006from572-126495-0022.wav_gen.wav" type="audio/wav">
+       <source src="./ppg-vc/vc_730_359_000004_000001__ref__SSB19350001_step34000.wav" type="audio/wav">
        </audio>
        </td>
     </tr>
@@ -231,32 +149,21 @@ audio {
        <td>2</td>
        <td>
        <audio controls>
-       <source src="./sourcewav/807-124223-0065.wav" type="audio/wav">
-       </audio> 807-124223-0065
+       <source src="./60_exp_crosslingual_consistencyvc-whispers-three-emo-loss/SSB02460001_.wav" type="audio/wav">
+       </audio> Chinese SSB02460001 in Aishell3
        </td>
        <td>
        <audio controls>
-       <source src="./quickvc-nosr/p229_006from807-124223-0065.wav.wav" type="audio/wav">
+       <source src="./60_exp_crosslingual_consistencyvc-whispers-three-emo-loss/SSB02460001_to_SSB19350001.wav" type="audio/wav">
        </audio>
        </td>
        <td>
        <audio controls>
-       <source src="./quickvc-sr/p229_006from807-124223-0065.wav.wav" type="audio/wav">
+       <source src="./60_exp_crosslingual_consistencyvc-whispers-three-emo-noloss/SSB02460001_to_SSB19350001.wav" type="audio/wav">
        </audio>
-       </td>
        <td>
        <audio controls>
-       <source src="./diffvc/p229_006from807-124223-0065.wav.wav" type="audio/wav">
-       </audio>
-       </td>
-       <td>
-       <audio controls>
-       <source src="./ppgvc/p229_006from807-124223-0065.wav.wav" type="audio/wav">
-       </audio>
-       </td>
-       <td>
-       <audio controls>
-       <source src="./vqmivc/p229_006from807-124223-0065.wav_gen.wav" type="audio/wav">
+       <source src="./ppg-vc/vc_SSB02460001__ref__SSB19350001_step34000.wav" type="audio/wav">
        </audio>
        </td>
     </tr>
@@ -265,71 +172,109 @@ audio {
        <td>3</td>
        <td>
        <audio controls>
-       <source src="./sourcewav/1168-134958-0091.wav" type="audio/wav">
-       </audio> 1168-134958-0091
+       <source src="./60_exp_crosslingual_consistencyvc-whispers-three-emo-loss/BASIC5000_0318_.wav" type="audio/wav">
+       </audio> Japanese jvs014\nonpara30\wav24kHz16bit\BASIC5000_0318 in JVS
        </td>
        <td>
        <audio controls>
-       <source src="./quickvc-nosr/p229_006from1168-134958-0091.wav.wav" type="audio/wav">
+       <source src="./60_exp_crosslingual_consistencyvc-whispers-three-emo-loss/BASIC5000_0318_to_SSB19350001.wav" type="audio/wav">
        </audio>
        </td>
        <td>
        <audio controls>
-       <source src="./quickvc-sr/p229_006from1168-134958-0091.wav.wav" type="audio/wav">
+       <source src="./60_exp_crosslingual_consistencyvc-whispers-three-emo-noloss/BASIC5000_0318_to_SSB19350001.wav" type="audio/wav">
        </audio>
-       </td>
        <td>
        <audio controls>
-       <source src="./diffvc/p229_006from1168-134958-0091.wav.wav" type="audio/wav">
-       </audio>
-       </td>
-       <td>
-       <audio controls>
-       <source src="./ppgvc/p229_006from1168-134958-0091.wav.wav" type="audio/wav">
-       </audio>
-       </td>
-       <td>
-       <audio controls>
-       <source src="./vqmivc/p229_006from1168-134958-0091.wav_gen.wav" type="audio/wav">
+       <source src="./ppg-vc/vc_BASIC5000_0318__ref__SSB19350001_step34000.wav" type="audio/wav">
        </audio>
        </td>
     </tr>
       
+    </table>
+
+    <h3>Target Japanese reference utterance-<audio controls>
+       <source src="./60_exp_crosslingual_consistencyvc-whispers-three-emo-loss/_BASIC5000_0113.wav" type="audio/wav">
+       </audio> jvs010\nonpara30\BASIC5000_0113 in JVS </h3>
+    <table border="1">
     <tr>
-       <td>4</td>
+      <th>No.</th>
+      <th>Source</th>
+      <th>ConsistencyVC (proposed)</th>
+      <th>ConsistencyVC-w/o loss (proposed)</th>
+      <th>BNE-PPG-VC</th>
+    </tr>
+
+    <tr>
+       <td>1</td>
        <td>
        <audio controls>
-       <source src="./sourcewav/1691-142296-0022.wav" type="audio/wav">
-       </audio> 1691-142296-0022
+       <source src="./60_exp_crosslingual_consistencyvc-whispers-three-emo-loss/911_128684_000004_000001_.wav" type="audio/wav">
+       </audio> English 911_128684_000004_000001 in LibriTTS-100
        </td>
        <td>
        <audio controls>
-       <source src="./quickvc-nosr/p229_006from1691-142296-0022.wav.wav" type="audio/wav">
+       <source src="./60_exp_crosslingual_consistencyvc-whispers-three-emo-loss/911_128684_000004_000001_to_BASIC5000_0113.wav" type="audio/wav">
        </audio>
        </td>
        <td>
        <audio controls>
-       <source src="./quickvc-sr/p229_006from1691-142296-0022.wav.wav" type="audio/wav">
+       <source src="./60_exp_crosslingual_consistencyvc-whispers-three-emo-noloss/911_128684_000004_000001_to_BASIC5000_0113.wav" type="audio/wav">
        </audio>
-       </td>
        <td>
        <audio controls>
-       <source src="./diffvc/p229_006from1691-142296-0022.wav.wav" type="audio/wav">
-       </audio>
-       </td>
-       <td>
-       <audio controls>
-       <source src="./ppgvc/p229_006from1691-142296-0022.wav.wav" type="audio/wav">
-       </audio>
-       </td>
-       <td>
-       <audio controls>
-       <source src="./vqmivc/p229_006from1691-142296-0022.wav_gen.wav" type="audio/wav">
+       <source src="./ppg-vc/vc_911_128684_000004_000001__ref__BASIC5000_0113_step34000.wav" type="audio/wav">
        </audio>
        </td>
     </tr>
 
-    </table> 
+    <tr>
+       <td>2</td>
+       <td>
+       <audio controls>
+       <source src="./60_exp_crosslingual_consistencyvc-whispers-three-emo-loss/SSB18630001_.wav" type="audio/wav">
+       </audio> Chinese SSB18630001 in Aishell3
+       </td>
+       <td>
+       <audio controls>
+       <source src="./60_exp_crosslingual_consistencyvc-whispers-three-emo-loss/SSB18630001_to_BASIC5000_0113.wav" type="audio/wav">
+       </audio>
+       </td>
+       <td>
+       <audio controls>
+       <source src="./60_exp_crosslingual_consistencyvc-whispers-three-emo-noloss/SSB18630001_to_BASIC5000_0113.wav" type="audio/wav">
+       </audio>
+       <td>
+       <audio controls>
+       <source src="./ppg-vc/vc_SSB18630001__ref__BASIC5000_0113_step34000.wav" type="audio/wav">
+       </audio>
+       </td>
+    </tr>
+
+    <tr>
+       <td>3</td>
+       <td>
+       <audio controls>
+       <source src="./60_exp_crosslingual_consistencyvc-whispers-three-emo-loss/BASIC5000_0440_.wav" type="audio/wav">
+       </audio> Japanese BASIC5000_0440 in JVS
+       </td>
+       <td>
+       <audio controls>
+       <source src="./60_exp_crosslingual_consistencyvc-whispers-three-emo-loss/BASIC5000_0440_to_BASIC5000_0113.wav" type="audio/wav">
+       </audio>
+       </td>
+       <td>
+       <audio controls>
+       <source src="./60_exp_crosslingual_consistencyvc-whispers-three-emo-noloss/BASIC5000_0440_to_BASIC5000_0113.wav" type="audio/wav">
+       </audio>
+       <td>
+       <audio controls>
+       <source src="./ppg-vc/vc_BASIC5000_0440__ref__BASIC5000_0113_step34000.wav" type="audio/wav">
+       </audio>
+       </td>
+    </tr>
+      
+    </table>
 
 <li>Expressive Voice Conversion:</li>
     <h3>Target reference utterance-<audio controls>
